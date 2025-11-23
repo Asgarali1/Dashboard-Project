@@ -17,7 +17,7 @@ const login = ({handleLogin}) => {
     }
   return (
     <div className='flex h-screen w-screen items-center justify-center'>
-        <div className='border-2 border-emerald-600 rounded-xl p-20'>
+        <div className='border-1 border-emerald-600 rounded-xl p-20'>
             <form
             onSubmit={(e)=>{
                 submitHandler(e)
